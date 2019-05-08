@@ -1,0 +1,1 @@
+redis缓存+autofac+Swagger+hangfire+Mysql+Jwt+Nlog+webApi+linq+Sql+cache

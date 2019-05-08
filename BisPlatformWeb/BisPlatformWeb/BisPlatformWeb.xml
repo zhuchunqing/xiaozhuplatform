@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BisPlatformWeb</name>
+    </assembly>
+    <members>
+        <member name="T:BisPlatformWeb.Common.LogAttribute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BisPlatformWeb.Common.NlogHelper">
+            <summary>
+            日志帮助类
+            </summary>
+        </member>
+        <member name="M:BisPlatformWeb.Common.NlogHelper.ErrorLog(System.String)">
+            <summary>
+            错误
+            </summary>
+            <param name="throwMsg">操作信息</param>
+        </member>
+        <member name="M:BisPlatformWeb.Common.NlogHelper.InfoLog(System.String)">
+            <summary>
+            打印
+            </summary>
+            <param name="operateMsg">操作信息</param>
+        </member>
+        <member name="M:BisPlatformWeb.Common.NlogHelper.Trace(System.String)">
+            <summary>
+            跟踪
+            </summary>
+            <param name="operateMsg">操作信息</param>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.IRedisService.Get(System.String)">
+            <summary>
+            获取缓存
+            </summary>
+            <param name="key">缓存key</param>
+            <returns></returns>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.IRedisService.GetString(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.IRedisService.AddString(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.IRedisService.Add(System.String,System.String,System.Int32)">
+            <summary>
+            添加缓存
+            </summary>
+            <param name="key">缓存key</param>
+            <param name="value">缓存值</param>
+            <param name="ExpirationTime">绝对过期时间(分钟)</param>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.IRedisService.Remove(System.String)">
+            <summary>
+            移除缓存
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.IRedisService.Replace(System.String,System.String,System.Int32)">
+            <summary>
+            更新缓存
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <param name="ExpirationTime"></param>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.RedisService.Get(System.String)">
+            <summary>
+            获取缓存
+            </summary>
+            <param name="key">缓存key</param>
+            <returns></returns>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.RedisService.Add(System.String,System.String,System.Int32)">
+            <summary>
+            添加缓存
+            </summary>
+            <param name="key">缓存key</param>
+            <param name="value">缓存值</param>
+            <param name="ExpirationTime">绝对过期时间(分钟)</param>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.RedisService.Remove(System.String)">
+            <summary>
+            移除缓存
+            </summary>
+            <param name="key">缓存key</param>
+        </member>
+        <member name="M:BisPlatformWeb.Common.Redis.RedisService.Replace(System.String,System.String,System.Int32)">
+            <summary>
+            更新缓存
+            </summary>
+            <param name="key">缓存key</param>
+            <param name="value">缓存值</param>
+            <param name="ExpirationTime"></param>
+        </member>
+        <member name="M:BisPlatformWeb.Startup.InItUserDatabase(Microsoft.AspNetCore.Builder.IApplicationBuilder,BisPlatform.Data.Common.UsersContext)">
+            <summary>
+            创造数据库
+            </summary>
+            <param name="app"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:BisPlatformWeb.Startup.AutofacModuleRegister.GetAssemblyByName(System.String)">
+            <summary>
+            根据程序集名称获取程序集
+            </summary>
+            <param name="AssemblyName">程序集名称</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BisInterface\BisInterface.csproj" />
+    <ProjectReference Include="..\BisPlatform.Data\BisPlatform.Data.csproj" />
+  </ItemGroup>
+
+</Project>
